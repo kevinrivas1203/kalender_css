@@ -14,21 +14,22 @@ th {
     background-color: #80862b;
     color: rgb(0, 0, 0);
 }
-table {;
-    border: 2px solid black;
-    border-radius: 5px; 
-    width: 70%;
-}
-th, td {
-    border: 1px solid black;
+table {
     border-collapse: collapse;
-    color: #000000;
-    padding: 8px;
-    text-align: center;
+    width: 50%;
 }
+th, td {    
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}   
 tr :hover {
     background-color: #922121;
-    color: #2e77d6;
-    si
- }
-    
+    color: #d8dfe7;
+}   
+td {
+    cursor: pointer;
+}
+.WESamstag {
+    color: #ce6d6d;
+}

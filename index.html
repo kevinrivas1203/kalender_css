@@ -1,100 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalender</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <h1>Kalender von 10.02.2026</h1>
     <p>10. Februar ist ein Dienstag und zwar der erste dienstag im Monat Februar des Jahres 2025.</p>
-
-    <table class="kalender"
-        <tr>
-            <th>Mo</th>
-            <th>Di</th>
-            <th>MI</th>
-            <th>Do</th>
-            <th>Fr</th>
-            <th class="Samstag">Sa</th>
-            <th class="Sontag">So</th>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="WE Samstag"></td>
-            <td class="WE Sontag">1</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td class="WE Samstag">7</td>
-            <td class="WE Sontag">8</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-            <td>13</td>
-            <td class="WE Samstag">14</td>
-            <td class="WE Sontag">15</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
-          <td class="WE Samstag">21</td>
-            <td class="WE Sontag">22</td>
-        </tr>
-        <tr>
-            <td>23</td>
-            <td>24</td>
-            <td>25</td>
-            <td>26</td>
-          <td class="WE Samstag">27</td>
-            <td class="WE Sontag">28</td>
-            <td></td>
-        </tr>
-    </table>
-
-    <h2><u>Historische Ereignisse am 10. Februar</u></h2>
-    
-    <div class="contenedor">
-        <ul>
-            <li>
-                <strong>2024:</strong> Bei einem russischen Drohnenangriff auf die ukrainische Stadt Charkiw sterben 
-                sieben Zivilisten, darunter drei Kinder. Die Flugkörper treffen eine Tankstelle und lösen ein Großfeuer 
-                aus.
-            </li>
-            <li>
-                <strong>2017:</strong> Intendant Claus Peymann verabschiedet sich nach 17 Jahren mit seiner letzten 
-                Inszenierung vom Berliner Ensemble.
-                <a href="https://www.rnd.de/panorama/10-februar-ereignisse-geburtstage-todestage-kalenderblatt-am-donnerstag-10-2-2022-GGNTB3VN2FAKTO5ZVB5PMM4UWQ.html">
-                    Mehr erfaren
-                </a>
-            </li>
-            <li>
-                <strong>2012:</strong> Die 19-jährige Berlinerin Ivy Quainoo gewinnt die erste Staffel der 
-                Sat.1-Castingshow „The Voice of Germany“.
-            </li>
-            <li>
-                <strong>1992:</strong> Der Rennrodler Georg Hackl wird im französischen Albertville zum ersten Mal 
-                Olympiasieger.
-            </li>
-        </ul>
+    <div class="container">
+        <table class="kalender"><!--wenn ich eine classe erstelle darf keine leerzeichen sein. 
+                                    mehr worte liebe "We_Samstag"-->
+            <thead> Februar</thead>
+            <tr>
+                <th>Mo</th>
+                <th>Di</th>
+                <th>MI</th>
+                <th>Do</th>
+                <th>Fr</th>
+                <th class="Samstag">Sa</th>
+                <th class="Sonntag">So</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="WE_Samstag"></td>
+                <td class="WE_Sonntag">1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="WE_Samstag">7</td>
+                <td class="WE_Sonntag">8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td class="WE_Samstag">14</td>
+                <td class="WE_Sonntag">15</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td class="WE_Samstag">21</td>
+                <td class="WE_Sonntag">22</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td class="WE_Samstag">28</td>
+                <td class="WE_Sonntag"></td>
+            </tr>
+        </table>
+        <div class="Slide-text">
+            <h2><u>Historische Ereignisse am 10. Februar</u></h2>
+            <ul>
+                <li>
+                    <strong>2024:</strong> Bei einem russischen Drohnenangriff auf die ukrainische Stadt Charkiw sterben
+                    sieben Zivilisten, darunter drei Kinder. Die Flugkörper treffen eine Tankstelle und lösen ein
+                    Großfeuer
+                    aus.
+                </li>
+                <li>
+                    <strong>2017:</strong> Intendant Claus Peymann verabschiedet sich nach 17 Jahren mit seiner letzten
+                    Inszenierung vom Berliner Ensemble.
+                    <a
+                        href="https://www.rnd.de/panorama/10-februar-ereignisse-geburtstage-todestage-kalenderblatt-am-donnerstag-10-2-2022-GGNTB3VN2FAKTO5ZVB5PMM4UWQ.html">
+                        Mehr erfaren
+                    </a>
+                </li>
+                <li>
+                    <strong>2012:</strong> Die 19-jährige Berlinerin Ivy Quainoo gewinnt die erste Staffel der
+                    Sat.1-Castingshow „The Voice of Germany“.
+                </li>
+                <li>
+                    <strong>1992:</strong> Der Rennrodler Georg Hackl wird im französischen Albertville zum ersten Mal
+                    Olympiasieger.
+                </li>
+            </ul>
+        </div>
     </div>
-    
-    <image src="https://th.bing.com/th/id/R.d4e58046183a077cc36ba6b618dafba0?rik=nvuOxauq8i3udw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-At-9IoD9t1Q%2fUYZrFNmDCyI%2fAAAAAAAAAqc%2fq_TIHZfr6Dk%2fs1600%2fLEON-SERIO-.jpg&ehk=bJt3GStO1QXjQC8hbcidb3riTQg5%2bg6zXh11L3t9zz8%3d&risl=&pid=ImgRaw&r=0" width="300" height="180" alt="Kriegsbild"></image>
-    <image src="https://thoughtco.com/thmb/a6keu_lfmRjyDH-72nIz9MW5EdA%3D/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-872346454-5c37b2dec9e77c000132a628.jpg" width="200" height="180" alt="Blummen"></image>
+    <div class="bid1">
+        <image
+            src="https://th.bing.com/th/id/R.d4e58046183a077cc36ba6b618dafba0?rik=nvuOxauq8i3udw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-At-9IoD9t1Q%2fUYZrFNmDCyI%2fAAAAAAAAAqc%2fq_TIHZfr6Dk%2fs1600%2fLEON-SERIO-.jpg&ehk=bJt3GStO1QXjQC8hbcidb3riTQg5%2bg6zXh11L3t9zz8%3d&risl=&pid=ImgRaw&r=0"
+            width="300" height="180" alt="Kriegsbild"></image>
+    </div>
+    <div class="bild2">
+        <image
+            src="https://thoughtco.com/thmb/a6keu_lfmRjyDH-72nIz9MW5EdA%3D/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-872346454-5c37b2dec9e77c000132a628.jpg"
+            width="200" height="180" alt="Blummen">
+    </div>
+
 </body>
+
 </html>

@@ -1,13 +1,13 @@
 
 body{
-    background-color: #cc7644c7;
+    background-color: #faf9f8c7;
 }
 h1 {
     text-align: center;
     color: #64813f;
 }
 p {
-    text-align: left ;
+    text-align: center ;
     color: #000000;
 }
 th {
@@ -16,20 +16,29 @@ th {
 }
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 20%;
 }
 th, td {    
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 12px;
     text-align: center;
 }   
+td.WE_Sonntag {
+    background-color: #64813f;
+    color: rgb(245, 6, 6);
+}
 tr :hover {
-    background-color: #922121;
+    background-color: #e95959;
     color: #d8dfe7;
 }   
 td {
+    color: #070707;
     cursor: pointer;
 }
-.WESamstag {
-    color: #ce6d6d;
+td.WE_Samstag {
+    color: rgb(109, 132, 233);
+}
+
+.container {
+    display: flex;
 }

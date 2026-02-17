@@ -2,22 +2,29 @@
 body{
     background-color: #faf9f8c7;
 }
+
 h1 {
+    grid-area: Header;
     text-align: center;
     color: #64813f;
 }
+
 p {
-    text-align: center ;
     color: #000000;
 }
+
 th {
     background-color: #80862b;
     color: rgb(0, 0, 0);
 }
 table {
     border-collapse: collapse;
-    width: 20%;
 }
+
+#Kalender {
+    grid-area: Kalender;
+}
+
 th, td {    
     border: 1px solid rgb(0, 0, 0);
     padding: 12px;
@@ -40,5 +47,51 @@ td.WE_Samstag {
 }
 
 .container {
-    display: flex;
+    margin: 24px 0px; 
+    display: grid;
+    grid-template-areas:    "Header Header Header"
+                            "Intro Intro Intro"
+                            "Kalender History History"
+                            "Bild1 Bild2 Bild3";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+#History {
+    grid-area: History;
+}
+
+.Monat {
+    display: grid;
+    grid-template-columns: min-content auto min-content;
+}
+
+#Intro {font-size
+    grid-area: Intro;
+    text-align: center;
+}
+
+#Image1 {
+    grid-area: Bild1;
+}
+
+#Image2 {
+    grid-area: Bild2;
+}
+
+#Image3 {
+    grid-area: Bild3;
+}
+
+#Kalender table {
+    width: 100%;
+}
+
+.Image {
+    width: 100%;
+}
+
+.Image img {
+    width: 100%;
 }

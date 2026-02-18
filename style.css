@@ -1,15 +1,21 @@
 
 body{
-    background-color: #faf9f8c7;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/888/269/100/african-savanna-desktop-background-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    background-attachment: fixed;
+  
 }
 
 h1 {
     grid-area: Header;
     text-align: center;
-    color: #64813f;
+    color: #1e3344;
 }
 
 p {
+    font-size: 20px;
     color: #000000;
 }
 
@@ -18,6 +24,7 @@ th {
     color: rgb(0, 0, 0);
 }
 table {
+    background-color: aliceblue;
     border-collapse: collapse;
 }
 
@@ -25,7 +32,8 @@ table {
     grid-area: Kalender;
 }
 
-th, td {    
+th, td {  
+    font-size: 23px;  
     border: 1px solid rgb(0, 0, 0);
     padding: 12px;
     text-align: center;
@@ -59,6 +67,7 @@ td.WE_Samstag {
 }
 
 #History {
+    font-size: 20px;
     grid-area: History;
 }
 
@@ -67,8 +76,8 @@ td.WE_Samstag {
     grid-template-columns: min-content auto min-content;
 }
 
-#Intro {font-size
-    grid-area: Intro;
+#Intro {
+    grid-area: Intro ;
     text-align: center;
 }
 
@@ -93,5 +102,13 @@ td.WE_Samstag {
 }
 
 .Image img {
+    border-style: solid;
     width: 100%;
+}
+footer {
+    text-align: lefte;
+    color: #1e3344;
+    margin-top: 20px;
+    font-size: 15;
+    padding: 10px;
 }

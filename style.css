@@ -60,8 +60,9 @@ td.WE_Samstag {
     grid-template-areas:    "Header Header Header"
                             "Intro Intro Intro"
                             "Kalender History History"
-                            "Bild1 Bild2 Bild3";
-    grid-template-columns: 1fr 1fr 1fr;
+                            "Bild1 Bild2 Bild3"
+                            "Footer1 Footer Footer";
+    grid-template-columns: 1fr 0.85fr 1fr;
     gap: 20px;
     width: 100%;
 }
@@ -90,6 +91,7 @@ td.WE_Samstag {
 }
 
 #Image3 {
+    display: flex;
     grid-area: Bild3;
 }
 
@@ -106,9 +108,12 @@ td.WE_Samstag {
     width: 100%;
 }
 footer {
-    text-align: lefte;
-    color: #1e3344;
+    grid-area: Footer1;     
+    background-color: #ffffff;
+    text-align: left;
+    color: #8f9593;
     margin-top: 20px;
-    font-size: 15;
-    padding: 10px;
+    font-size: 15px;
+    padding: 20px;
+    opacity: 0.9;
 }

@@ -1,12 +1,12 @@
 
-body{
+body {
     background-image: url("https://p4.wallpaperbetter.com/wallpaper/888/269/100/african-savanna-desktop-background-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
     background-attachment: fixed;
-  
-}
+    
+  }
 
 h1 {
     grid-area: Header;
@@ -28,7 +28,8 @@ table {
     border-collapse: collapse;
 }
 
-#Kalender {
+#Kalender  {
+    cursor: pointer;
     grid-area: Kalender;
 }
 
@@ -99,7 +100,10 @@ td.WE_Samstag {
     width: 100%;
 }
 
-.Image {
+.Image :hover {
+    cursor: pointer;
+    transition-duration: all , 0.5s;
+    filter:brightness(150%);
     width: 100%;
 }
 
@@ -116,4 +120,12 @@ footer {
     font-size: 15px;
     padding: 20px;
     opacity: 0.9;
+}
+.today {
+    background-color: orange;
+}
+.button {
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
 }
